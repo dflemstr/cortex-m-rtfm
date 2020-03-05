@@ -50,7 +50,7 @@ required-features = ["__v7"]
 cortex-m = "0.6.2"
 cortex-m-rtfm-macros = { path = "macros", version = "0.5.0" }
 rtfm-core = "0.3.0"
-cortex-m-rt = "0.6.9"
+imxrt1062-rt = { git = "https://github.com/mciantyre/teensy4-rs.git" }
 heapless = "0.5.0"
 
 [dependencies.microamp]
