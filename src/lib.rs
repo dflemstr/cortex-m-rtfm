@@ -50,6 +50,7 @@ use cortex_m::{
 };
 #[cfg(all(not(feature = "heterogeneous"), not(feature = "homogeneous")))]
 use imxrt1062_rt as _; // vector table
+use teensy4_fcb as _;
 pub use cortex_m_rtfm_macros::app;
 pub use rtfm_core::{Exclusive, Mutex};
 

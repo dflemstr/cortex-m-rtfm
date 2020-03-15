@@ -51,6 +51,7 @@ cortex-m = "0.6.2"
 cortex-m-rtfm-macros = { path = "macros", version = "0.5.0" }
 rtfm-core = "0.3.0"
 imxrt1062-rt = { git = "https://github.com/dflemstr/teensy4-rs.git", branch = "rtfm-fixes" }
+teensy4-fcb = { git = "https://github.com/dflemstr/teensy4-rs.git", branch = "rtfm-fixes" }
 heapless = "0.5.0"
 
 [dependencies.microamp]
